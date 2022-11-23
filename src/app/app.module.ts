@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { ElementsModule } from './elements/elements.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './about/about.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ElementsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
